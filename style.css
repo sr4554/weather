@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    background-image: url('images/weather\ background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+}
+.titlepage{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.titlepage h1{
+    color: white ;
+    font-family: 'Comic Sans MS',cursive;
+}
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+input[type="text"]{
+    height: 50px;
+    width: 300px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+input[type="Submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+.display{
+    text-align: center;
+
+}
+
+.Name{
+    font-size: 35px;
+    color:gold;
+}
+.desc{
+    font-size: 20px;
+}
+.temp{
+    font-size: 20px;
+}
+.tempfeel{
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    .input {
+        margin: 30px 0;
+    }
+
+    input[type="text"] {
+        width: 70%;
+        max-width: 300px;
+    }
+
+    input[type="submit"] {
+        width: 35%;
+        max-width: 100px;
+    }
+} 
+
